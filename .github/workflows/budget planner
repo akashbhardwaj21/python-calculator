@@ -1,0 +1,16 @@
+#income
+income = float(input("Enter your income: "))
+
+#expense
+rent = float(input("Enter your rent: "))
+food = float(input("Enter your food expense: "))
+transport = float(input("Enter your transport expense: "))
+misc = float(input("Enter your misc expense: "))
+#new_exp = float(input("Enter your other expense: "))
+
+total_expense = rent + food + transport + misc# + new_exp
+print(total_expense)
+
+cash_in_hand = income - total_expense
+print(cash_in_hand)
+print("Thank You for using our monthly calculator!!")
