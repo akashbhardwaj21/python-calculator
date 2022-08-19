@@ -1,0 +1,25 @@
+first = input("Enter first number: ")
+expression = input("Choose operator +, -, *, /, %: ")
+second = input("Enter second number: ")
+
+if expression == '+':
+    sum = int(first) + int(second)
+    print(sum)
+
+elif expression == '-':
+    sub = int(first) - int(second)
+    print(sub)
+
+elif expression == '*':
+    mul = int(first) * int(second)
+    print(mul)
+
+elif expression == '/':
+    div = int(first) / int(second)
+    print(div)
+
+elif expression == '%':
+    mod = int(first) % int(second)
+    print(mod)
+else:
+    print("wrong input!!")
